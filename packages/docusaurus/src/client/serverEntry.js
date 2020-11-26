@@ -5,6 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
+
 import * as eta from 'eta';
 import React from 'react';
 import {StaticRouter} from 'react-router-dom';
