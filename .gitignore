@@ -16,9 +16,12 @@ coverage
 .cache-loader
 types
 test-website
-packages/docusaurus-utils/lib/
+# Allow compiled files to be commited
+# packages/docusaurus-utils/lib/
 packages/docusaurus-utils-validation/lib/
-packages/docusaurus/lib/
+
+# Allow compiled files to be commited
+# packages/docusaurus/lib/
 packages/docusaurus-init/lib/
 packages/docusaurus-plugin-client-redirects/lib/
 packages/docusaurus-plugin-content-blog/lib/
